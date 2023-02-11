@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"outDir": "./distribution",
+		"strict": true,
+		"esModuleInterop": false,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"incremental": true,
+		"noUncheckedIndexedAccess": true,
+		"resolveJsonModule": true,
+		"tsBuildInfoFile": "./distribution/tsconfig.tsbuildinfo",
+		"module": "CommonJS",
+		"target": "ES2021",
+		"rootDir": "./source",
+		"lib": [
+			"ES2021"
+		]
+	}
+}

@@ -1,0 +1,84 @@
+[
+	{
+		"id": 0,
+		"name": "Limelight Foundation",
+		"state": "INDIANA",
+		"category": "PHILANTHROPY_VOLUNTARISM_GRANTMAKING_FOUNDATIONS",
+		"featured": "NATIONAL"
+	},
+	{
+		"id": 1,
+		"name": "Comeback Foundation",
+		"state": "NEW_YORK",
+		"category": "ANIMAL_RELATED",
+		"featured": "STATE"
+	},
+	{
+		"id": 2,
+		"name": "Tenderfoot Foundation",
+		"category": "HIGHER_EDUCATION"
+	},
+	{
+		"id": 3,
+		"name": "Afterlife Foundation",
+		"state": "KENTUCKY",
+		"category": "HEALTH_CARE",
+		"featured": "STATE"
+	},
+	{
+		"id": 4,
+		"name": "Watertight Foundation",
+		"state": "ILLINOIS",
+		"category": "HUMAN_SERVICES",
+		"featured": "STATE"
+	},
+	{
+		"id": 5,
+		"name": "Underbelly Foundation",
+		"state": "NEW_YORK",
+		"category": "OTHER",
+		"featured": "STATE"
+	},
+	{
+		"id": 6,
+		"name": "Upend Foundation",
+		"state": "ILLINOIS",
+		"category": "UNCATEGORIZED",
+		"featured": "NATIONAL"
+	},
+	{
+		"id": 7,
+		"name": "Weeknight Foundation",
+		"state": "MISSOURI",
+		"category": "HEALTH_CARE",
+		"featured": "NATIONAL"
+	},
+	{
+		"id": 8,
+		"name": "Sheepskin Foundation",
+		"state": "WISCONSIN",
+		"category": "PHILANTHROPY_VOLUNTARISM_GRANTMAKING_FOUNDATIONS",
+		"featured": "NATIONAL"
+	},
+	{
+		"id": 9,
+		"name": "Throwback Foundation",
+		"state": "NEW_YORK",
+		"category": "ANIMAL_RELATED",
+		"featured": "STATE"
+	},
+	{
+		"id": 10,
+		"name": "Foreword Foundation",
+		"state": "DISTRICT_OF_COLUMBIA",
+		"category": "ANIMAL_RELATED",
+		"featured": "NATIONAL"
+	},
+	{
+		"id": 11,
+		"name": "Schoolbus Foundation",
+		"state": "FLORIDA",
+		"category": "ANIMAL_RELATED",
+		"featured": "NATIONAL"
+	}
+]

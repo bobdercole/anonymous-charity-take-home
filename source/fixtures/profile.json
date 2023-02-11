@@ -1,0 +1,9 @@
+{
+	"id": 1,
+	"name": "Sam Smith",
+	"state": "NEW_YORK",
+	"isMarried": true,
+	"hasChildren": false,
+	"hasPets": true,
+	"age": 65
+}
