@@ -1,5 +1,7 @@
 # Anonymous Charity Take-home
 
+This is a solution that I submitted for a take-home technology screen job interview. This version has been modified to anonymize the company.
+
 ## Requirements
 
 - Write a command line program.
