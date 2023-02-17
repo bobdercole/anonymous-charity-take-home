@@ -32,6 +32,18 @@ type SearchConditions = {
 	'national': SearchCondition;
 }
 
+const searchConditions: SearchConditions = {
+	'pet': charity => {
+		return charity.category === 'ANIMAL_RELATED';
+	},
+	'state': (charity, profile) => {
+		return charity.featured === 'STATE' && charity.state === profile.state;
+	},
+	'national': charity => {
+		return charity.featured === 'NATIONAL';
+	}
+}
+
 function determinePrioritySearchMode(currentCounts: CharityCounts, targetCounts: CharityCounts): PrioritySearchMode {
 	let mode = PrioritySearchMode.None;
 
@@ -56,18 +68,6 @@ function determineFeaturedSearchMode(currentCounts: CharityCounts, targetCounts:
 	}
 
 	return mode;
-}
-
-const searchConditions: SearchConditions = {
-	'pet': charity => {
-		return charity.category === 'ANIMAL_RELATED';
-	},
-	'state': (charity, profile) => {
-		return charity.featured === 'STATE' && charity.state === profile.state;
-	},
-	'national': charity => {
-		return charity.featured === 'NATIONAL';
-	}
 }
 
 function createBuckets(charities: Charity[], profile: Profile): CharityFeaturedBuckets {
