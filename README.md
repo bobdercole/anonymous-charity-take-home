@@ -6,7 +6,7 @@ This is a solution that I submitted for a take-home technology screen job interv
 
 - Write a command line program.
 - Read charities and a user profile from CSV files.
-- Select 12 charities total.
+- Select 12 random charities total.
 - Select between 1 and 5 state-featured charities that match the user profile state.
 - Select between 4 and 12 animal related charities.
 
